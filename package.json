@@ -1,0 +1,25 @@
+{
+  "name": "app-confia-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ConfiaApp/app-confia-front.git",
+  "author": "Lucas Siqueira <lalvessiqueira8@gmail.com>",
+  "license": "Apache 2.0",
+  "scripts": {
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
